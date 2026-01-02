@@ -31,7 +31,6 @@
       in {
         default = pkgs.mkShell {
           packages = with pkgs; [
-            unstable.bootdev-cli
             uv
             python312
           ];
